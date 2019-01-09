@@ -1,0 +1,12 @@
+
+# backups!?
+*.zip
+*.pyc
+
+# application and data
+/repositories
+/.idea
+/log
+/data
+/gitea
+/gitea-backup-*

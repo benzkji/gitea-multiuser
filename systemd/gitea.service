@@ -1,0 +1,13 @@
+[Unit]
+Description=Gitea (Git with a cup of tea)
+After=network.target
+
+[Service]
+RestartSec=10s
+WorkingDirectory=/home/youruser/gitea-live
+ExecStart=/home/youruser/gitea-live/gitea web -c /home/youruser/gitea-live/custom/conf/app.ini
+Restart=always
+
+[Install]
+# systemd user mode
+WantedBy=default.target
