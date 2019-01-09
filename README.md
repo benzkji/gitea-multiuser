@@ -7,7 +7,8 @@ install gitea in a shared (hosting) environment.
 - runs behind an nginx proxy (not included :)
 - no SSL, this is done on nginx/proxy level
 - very reduced systemd example, run it as systemctl --user
-- fabfile.org for deployment (totally optional), take care, badly adopted from my django projects. needs fabric<2
+- fabfile.org for deployment (totally optional), take care, badly adopted from my django projects. 
+- fab needs fabric<2
 
 
 ### fair warnings
