@@ -6,3 +6,9 @@ install gitea in a shared (hosting) environment.
 - app.ini with basic config you would normall use when installed on a shared environment
 - very reduced systemd example, run it as systemctl --user
 - fabfile.org for deployment (totally optional), take care, badly adopted from my django projects. needs fabric<2
+
+
+### fair warnings
+
+- you'll probably not be able to run ssh on port 22
+- make a backup ;-)
